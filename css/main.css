@@ -14,44 +14,16 @@ h1 {
 
 .square {
     background-color: #000;
-    width: 5vw;
-    height: 5vw;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
     float:left;
 }
 
-.stripe-1 {
-    background-color: #138262;
-    width: 25vw;
-    height: 5vw;
-    margin: 0 auto;
-}
-
-.stripe-2 {
-    background-color: #3161A7;
-    width: 25vw;
-    height: 5vw;
-    margin: 0 auto;
-}
-
-.stripe-3 {
-    background-color: #CB4C83;
-    width: 25vw;
-    height: 5vw;
-    margin: 0 auto;
-}
-
-.stripe-4 {
-    background-color: #E57F33;
-    width: 25vw;
-    height: 5vw;
-    margin: 0 auto;
-}
-
-.stripe-5 {
+.stripe {
     background-color: #8BB050;
-    width: 25vw;
-    height: 5vw;
+    width: 500px;
+    height: 100px;
     margin: 0 auto;
 }
 
@@ -69,8 +41,8 @@ h1 {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     font-weight: 400;
-    font-size: 6;
-    position:absolute;
+    font-size: 75%;
+    position:fixed;
     bottom:0;
     height:100px;
     width:100%;
