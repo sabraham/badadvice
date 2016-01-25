@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var square = squares[i];
         square.style.backgroundColor = randomMatisse()
     }
-    var stripe = document.getElementsByClassName('stripe')[0];
+    var stripe = document.getElementsByClassName('stripe')[2];
     stripe.style.backgroundColor = randomMatisse()
 });
