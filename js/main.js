@@ -7,7 +7,6 @@ var randomMatisse = function () {
 document.addEventListener("DOMContentLoaded", function(event) {
     var squares = document.getElementsByClassName('square');
     for (var i = 0; i < squares.length; ++i) {
-        console.log(i);
         var square = squares[i];
         square.style.backgroundColor = randomMatisse()
     }
